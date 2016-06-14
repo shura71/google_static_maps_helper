@@ -21,7 +21,7 @@ require File.dirname(__FILE__) + '/google_static_maps_helper/gmap_polyline_encod
 #
 module GoogleStaticMapsHelper
   # The basic url to the API which we'll build the URL from
-  API_URL = 'http://maps.google.com/maps/api/staticmap'
+  API_URL = '//maps.google.com/maps/api/staticmap'
 
   class OptionMissing < ArgumentError; end # Raised when required options is not sent in during construction
   class OptionNotExist < ArgumentError; end # Raised when incoming options include keys which is invalid
